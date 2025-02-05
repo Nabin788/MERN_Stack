@@ -26,11 +26,11 @@ export const HeaderSection = () => {
                 </Button>
 
                 <div className="flex gap-2 md:order-2">
-                    <Button className="w-10 h-10 hidden" color="gray" pill>
+                    <Button className="w-12 h-10 hidden sm:inline" color="gray" pill>
                         <FaMoon />
                     </Button>
                     <Link to="login">
-                    <Button className="bg-black">Login</Button></Link>
+                    <Button className="text-black border-black" outline>Login</Button></Link>
                     <Navbar.Toggle />
                 </div>
 
