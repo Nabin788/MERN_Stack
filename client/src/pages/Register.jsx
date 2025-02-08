@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import {Button, Label, TextInput} from "flowbite-react";
 
 export const RegisterPage = () => {
